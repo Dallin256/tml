@@ -1,0 +1,181 @@
+@keyframes rainbow-cycle {
+  0% {
+    color: #ff0000;
+  }
+
+  18% {
+    color: #ffa500;
+  }
+
+  36% {
+    color: #ffff00;
+  }
+
+  54% {
+    color: #008000;
+  }
+
+  76% {
+    color: #0000ff;
+  }
+
+  100% {
+    color: #800080;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 75px;
+}
+
+.link__image-card {
+  display: flex;
+  width: 400px;
+  height: 250px;
+  border-radius: 10% 25%;
+  margin: 0 25;
+  align-items: flex-end;
+  margin-top: 30px;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 75px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.link__image-card:hover {
+  transform: translateY(-30px);
+  transition-duration: 0.5s;
+  color: pink;
+}
+
+.link__back-home {
+  font-size: 75px;
+  font-weight: 600;
+  color: #fff;
+  margin: 15px 0 15px;
+}
+
+.link__back-home:hover {
+  animation-name: rainbow-cycle;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+/*index links*/
+
+.link__image-card_tv {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/TV.png");
+  background-size: cover;
+}
+
+.link__image-card_vg {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/VG.png");
+  background-size: cover;
+  font-size: 370%;
+}
+
+.link__image-card_play {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/Ply.png");
+  background-size: cover;
+}
+
+.link__image-card_music {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/Mu.png");
+  background-size: cover;
+}
+
+.link__image-card_mov {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/mov.png");
+  background-size: cover;
+}
+
+.link__image-card_bok {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/bok.png");
+  background-size: cover;
+}
+
+.link__image-card_bgam {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/bgam.png");
+  background-size: cover;
+  font-size: 330%;
+}
+
+/*end of index specific links, start of show specific link classes*/
+
+.link__image-card_anime {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/jojo.png");
+  background-size: cover;
+}
+
+.link__image-card_cartoon {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/fall.png");
+  background-size: cover;
+}
+
+.link__image-card_live {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/who.png");
+  background-size: cover;
+  font-size: 55px;
+}
+
+.link__image-card_sit {
+  background-image: linear-gradient(rgb(0 0 0/ 0%), rgb(0 0 0/ 90%)),
+    url("../assests/frai.png");
+  background-size: cover;
+  font-size: 60px;
+}
+
+.link__back-home_shows {
+  margin: 0;
+  padding: 10px;
+  color: #533249;
+  text-decoration: none;
+}
+
+.link__back-shows {
+  font-size: 60px;
+  font-weight: 550;
+  color: #533249;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.link__back-shows:hover {
+  animation-name: rainbow-cycle;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+/*end of shows specific link classes, start of anime specific link classes*/
+
+.link__back-home_anime {
+  margin: 0;
+  padding: 10px;
+  color: #681414;
+  text-decoration: none;
+}
+
+.link__back-shows_anime {
+  color: #681414;
+}

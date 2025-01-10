@@ -1,0 +1,77 @@
+@import url(../blocks/link.css);
+
+.anime {
+  margin: 0;
+  background-color: #bceef0;
+}
+
+.anime__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.anime__title {
+  font-size: 125px;
+  margin: 20px auto;
+  font-weight: 600;
+  font-family: "Georgia", "Times New Roman";
+  color: #681414;
+  text-align: center;
+}
+
+.anime__subtitle {
+  color: #681414;
+  max-width: max-content;
+  margin: 0 auto 20px;
+  border: 7px;
+  border-radius: 0% 0% 30% 30%;
+  border-style: solid;
+}
+
+.anime__subtitle_2 {
+  border-radius: 30% 30% 0% 0%;
+}
+
+.anime__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.anime__legend {
+  margin: 0 auto 20px;
+  padding: 55px;
+  width: 700px;
+  height: 300px;
+  border: 20px;
+  border-color: #681414;
+  border-radius: 35%;
+  border-style: groove;
+}
+
+.anime__legend-chunk {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anime__icon {
+}
+
+.anime__icon-title {
+}
+
+.anime__box {
+  background-color: rgb(123, 58, 143);
+  margin: 0;
+  padding: 20px;
+}
+
+.anime__row {
+  display: flex;
+}
+
+.anime__footer {
+  margin: 5px;
+  text-align: center;
+}

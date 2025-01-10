@@ -1,0 +1,27 @@
+@import url(../blocks/link.css);
+@import url(../blocks/shows.css);
+
+.title {
+  text-align: center;
+  font-size: 150px;
+  margin: 20px 0 20px 20px;
+  font-weight: 700;
+  color: #033c4b;
+}
+
+.index__box {
+  background-color: #257973;
+  padding: 20px;
+}
+
+.index__box-row {
+  display: flex;
+  justify-content: center;
+}
+.body {
+  background-color: #a2dae8;
+}
+footer {
+  margin: 5px;
+  text-align: center;
+}
