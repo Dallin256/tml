@@ -42,23 +42,50 @@
 .anime__legend {
   margin: 0 auto 20px;
   padding: 55px;
-  width: 700px;
+  width: 1200px;
   height: 300px;
   border: 20px;
   border-color: #681414;
   border-radius: 35%;
   border-style: groove;
+  background-color: #681414;
 }
 
 .anime__legend-chunk {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
+}
+
+.anime__icon-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  padding-bottom: 20px;
 }
 
 .anime__icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
 }
 
 .anime__icon-title {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+.anime__icon-subtitle {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .anime__box {
