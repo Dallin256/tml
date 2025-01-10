@@ -98,6 +98,50 @@
   display: flex;
 }
 
+.anime__list-a {
+  background-color: #f4ab88;
+  color: #0b3c75;
+}
+
+.anime__list-b {
+}
+
+.anime__list-c {
+}
+
+.anime__list-d {
+}
+
+.anime__list-e {
+}
+
+.anime__list-f {
+}
+
+.anime__list-g {
+}
+
+.anime__list-h {
+}
+
+.anime__list-link {
+  color: #0b3c75;
+  font-weight: 700;
+  font-size: 35px;
+  padding-right: 10px;
+}
+
+.anime__list-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.anime__icon_s {
+  margin: 0;
+  padding: 0 3px 0 0;
+  width: 30px;
+  height: 30px;
+}
 .anime__footer {
   margin: 5px;
   text-align: center;
