@@ -1,5 +1,6 @@
 @import url(../blocks/link.css);
 @import url(../normalize.css);
+@import url(../blocks/global.css);
 
 .shows__header {
   display: flex;
@@ -16,7 +17,6 @@
   font-size: 125px;
   margin: 0 auto 20px;
   font-weight: 600;
-  font-family: "Georgia", "Times New Roman";
   color: #533249;
   text-align: center;
 }

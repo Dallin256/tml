@@ -1,5 +1,6 @@
 @import url(../blocks/link.css);
 @import url(../blocks/shows.css);
+@import url(../blocks/global.css);
 
 .title {
   text-align: center;

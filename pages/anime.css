@@ -1,4 +1,5 @@
 @import url(../blocks/link.css);
+@import url(../blocks/global.css);
 
 .anime {
   margin: 0;
@@ -15,7 +16,7 @@
   font-size: 125px;
   margin: 20px auto;
   font-weight: 600;
-  font-family: "Georgia", "Times New Roman";
+  font-family: "swindle", "Georgia", "Times New Roman";
   color: #681414;
   text-align: center;
 }
@@ -98,41 +99,88 @@
   display: flex;
 }
 
-.anime__list-a {
-  background-color: #f4ab88;
-  color: #0b3c75;
+.anime__list {
+  margin: 0;
+  padding-bottom: 30px;
 }
 
-.anime__list-b {
+.anime__list_r {
+  background-color: #f48f88;
+  color: #2f5255;
 }
 
-.anime__list-c {
+.anime__list_o {
+  background-color: #f4bc88;
+  color: #3d566e;
 }
 
-.anime__list-d {
+.anime__list_y {
+  background-color: #f4e788;
+  color: #614174;
 }
 
-.anime__list-e {
+.anime__list_g {
+  background-color: #b0f488;
+  color: #4a3258;
 }
 
-.anime__list-f {
+.anime__list_gg {
+  background-color: #88f496;
+  color: #63365d;
 }
 
-.anime__list-g {
+.anime__list_b {
+  background-color: #88e4f4;
+  color: #553530;
 }
 
-.anime__list-h {
+.anime__list_i {
+  background-color: #888af4;
+  color: #464526;
+}
+
+.anime__list-v {
+  background-color: #cc88f4;
+  color: #3a502d;
 }
 
 .anime__list-link {
-  color: #0b3c75;
+  color: #2f5255;
   font-weight: 700;
   font-size: 35px;
   padding-right: 10px;
 }
 
+.anime__list-link_1 {
+  color: #3d566e;
+}
+
+.anime__list-link_2 {
+  color: #614174;
+}
+
+.anime__list-link_3 {
+  color: #4a3258;
+}
+
+.anime__list-link_4 {
+  color: #63365d;
+}
+
+.anime__list-link_5 {
+  color: #553530;
+}
+
+.anime__list-link_6 {
+  color: #464526;
+}
+
+.anime__list-link_7 {
+  color: #3a502d;
+}
+
 .anime__list-link:hover {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
